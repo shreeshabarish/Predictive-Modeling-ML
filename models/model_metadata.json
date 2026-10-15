@@ -1,0 +1,16 @@
+{
+  "best_model": "Logistic Regression",
+  "target": "churn",
+  "positive_class": "churn = 1",
+  "features": [
+    "tenure_months",
+    "monthly_charges",
+    "support_tickets",
+    "contract_type",
+    "internet_service",
+    "paperless_billing"
+  ],
+  "data_note": "Synthetic educational dataset; not real customer data.",
+  "test_size": 0.2,
+  "random_state": 42
+}
